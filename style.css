@@ -1,0 +1,42 @@
+h1 {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  color: red;
+  padding: 10px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  color: darkblue;
+}
+
+#todo-container {
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+
+#task-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add-task-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li {
+  margin-bottom: 5px;
+}
